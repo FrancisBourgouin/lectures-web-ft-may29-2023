@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Media Queries</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      section {
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+      }
+      article {
+        width: 40%;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      /* if screen-width is under 700px */
+      /* 0-700 */
+
+      /* max-width => up to a specific size */
+      /* 0-1199 */
+      /* @media screen and (max-width: 1200px) {
+        article {
+          width: 100%;
+        }
+      }
+      /* min-width => starting from a specific size */
+      /* @media screen and (min-width: 1200px) {
+        article {
+          width: 100%;
+        }
+      }  */
+
+      /* < 400 */
+      /* 400 < 700-800 */
+      /* 800 < 1200 */
+      /* 1200 <*/
+    </style>
+  </head>
+  <body>
+    <section>
+      <article>
+        <img src="images/20220131174506_1.jpg" alt="" />
+        <p>An image!</p>
+      </article>
+      <article>
+        <img src="images/20220131221341_1.jpg" alt="" />
+        <p>An image!</p>
+      </article>
+      <article>
+        <img src="images/20220201000857_1.jpg" alt="" />
+        <p>An image!</p>
+      </article>
+      <article>
+        <img src="images/20220202213814_1.jpg" alt="" />
+        <p>An image!</p>
+      </article>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "w4d4",
+  "version": "1.0.0",
+  "description": "## Today's menu",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./sass.scss ./sass.css --watch",
+    "sass-sassy": "sass ./sass.sass ./sass.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
+}

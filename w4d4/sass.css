@@ -1,0 +1,29 @@
+:root {
+  --primary-color:black;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  color: var(--primary-color);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  background: #bada55;
+}
+header h1 {
+  color: rgb(210, 87, 38);
+  text-decoration: underline;
+}
+header h2 {
+  font-family: "Comic Sans MS";
+  font-style: italic;
+}
+
+/*# sourceMappingURL=sass.css.map */
