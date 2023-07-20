@@ -34,4 +34,13 @@ fctWithCallback(20, () => {
     });
   });
 });
+
+
+<ComponentA />
+<ComponentB />
+<ComponentC />
+<ComponentD />
+<ComponentE />
+<ComponentF />
+<ComponentG />
 ```
