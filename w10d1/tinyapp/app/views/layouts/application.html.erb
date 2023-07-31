@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tinyapp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+    <header class="navbar bg-success">
+      <h1 class="navbar-brand">TinyApp Rails!</h1>
+      <% if @user %>
+      <h2 class="nav-item">
+        Hi <%= @user.name %>!
+        <a href="/logout" class="link-light">Log out</a>
+      </h2>
+      <% else %>
+      <a href="/login" class="link-light">Log in</a>
+      <% end %>
+    </header>
+    <%= yield %>
+  </body>
+</html>
