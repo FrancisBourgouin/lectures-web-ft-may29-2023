@@ -1,0 +1,6 @@
+{
+  "tfjsSpeechCommandsVersion": "0.4.0",
+  "modelName": "TMv2",
+  "timeStamp": "2023-08-02T15:43:17.657Z",
+  "wordLabels": ["Aardvark", "Background Noise", "Coffee", "Merman", "Potato", "Travel"]
+}
